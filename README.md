@@ -1,87 +1,87 @@
 # React Intro
 
-Um projeto educacional para aprender os fundamentos do **React** com **TypeScript** e **Vite**.
+An educational project to learn the fundamentals of **React** with **TypeScript** and **Vite**.
 
-## 🎯 Funcionalidades
+## 🎯 Features
 
-- **Home Page**: Um contador interativo que aumenta a cada clique
-- **Form Page**: Um formulário com:
-  - Campos de entrada (nome, idade)
-  - Dropdown de estados brasileiros (integrado com a API do IBGE)
-  - Validação e manipulação de estado com React Hooks
-- **Roteamento**: Navegação entre páginas usando React Router
+- **Home Page**: An interactive counter that increments with each click
+- **Form Page**: A form with:
+  - Input fields (name, age)
+  - Brazilian states dropdown (integrated with IBGE API)
+  - State management and validation using React Hooks
+- **Routing**: Page navigation using React Router
 
 ## 🛠 Tech Stack
 
-- **React 19** - Biblioteca UI
-- **TypeScript** - Tipagem estática
-- **Vite** - Build tool e dev server ultrarrápido
-- **React Router v7** - Roteamento de página
-- **Axios** - Cliente HTTP para chamadas à API
-- **ESLint** - Linting de código
+- **React 19** - UI Library
+- **TypeScript** - Static typing
+- **Vite** - Ultra-fast build tool and dev server
+- **React Router v7** - Page routing
+- **Axios** - HTTP client for API calls
+- **ESLint** - Code linting
 
-## 📦 Instalação
+## 📦 Installation
 
 ```bash
-# Clone o repositório
-git clone https://github.com/[seu-usuario]/react-intro.git
+# Clone the repository
+git clone https://github.com/Ritcov/react-intro.git
 cd react-intro
 
-# Instale as dependências
+# Install dependencies
 npm install
 ```
 
-## 🚀 Como Rodar
+## 🚀 Getting Started
 
 ```bash
-# Modo desenvolvimento
+# Development mode
 npm run dev
 
-# Build para produção
+# Build for production
 npm run build
 
-# Preview do build
+# Preview the production build
 npm run preview
 
-# Lint do código
+# Run linter
 npm run lint
 ```
 
-O app estará disponível em `http://localhost:5173` (ou outra porta indicada pelo Vite).
+The app will be available at `http://localhost:5173` (or another port indicated by Vite).
 
-## 📝 Estrutura do Projeto
+## 📝 Project Structure
 
 ```
 src/
 ├── components/
-│   └── Header.tsx       # Componente reutilizável de header
+│   └── Header.tsx       # Reusable header component
 ├── pages/
-│   ├── Home.tsx         # Página inicial com contador
-│   ├── Home.css         # Estilos da home
-│   └── Form.tsx         # Página de formulário
-├── assets/              # Imagens e assets
-├── main.tsx             # Ponto de entrada
-├── router.tsx           # Configuração de rotas
-└── index.css            # Estilos globais
+│   ├── Home.tsx         # Home page with counter
+│   ├── Home.css         # Home styles
+│   └── Form.tsx         # Form page
+├── assets/              # Images and assets
+├── main.tsx             # Entry point
+├── router.tsx           # Route configuration
+└── index.css            # Global styles
 ```
 
-## 🎓 Conceitos Aprendidos
+## 🎓 Learning Concepts
 
-- ✅ Componentes funcionais
+- ✅ Functional components
 - ✅ Hooks: `useState`, `useEffect`
-- ✅ Props e tipagem com TypeScript
+- ✅ Props and TypeScript typing
 - ✅ State management
-- ✅ Formulários controlados
-- ✅ Requisições HTTP (Axios)
-- ✅ Roteamento SPA com React Router
+- ✅ Controlled form inputs
+- ✅ HTTP requests (Axios)
+- ✅ SPA routing with React Router
 
-## 📚 Referências
+## 📚 References
 
 - [React Docs](https://react.dev)
 - [Vite Docs](https://vitejs.dev)
 - [React Router Docs](https://reactrouter.com)
-- [API IBGE](https://servicodados.ibge.gov.br)
+- [IBGE API](https://servicodados.ibge.gov.br)
 
-## 📄 Licença
+## 📄 License
 
 MIT
