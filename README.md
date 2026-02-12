@@ -75,6 +75,11 @@ src/
 - ✅ HTTP requests (Axios)
 - ✅ SPA routing with React Router
 
+## 🎓 Course
+
+This project is based on the React intro course taught by **Prof. LuizTools**:
+- 📺 [Full course video on YouTube](https://www.youtube.com/watch?v=oqXNj8umBXI)
+
 ## 📚 References
 
 - [React Docs](https://react.dev)
