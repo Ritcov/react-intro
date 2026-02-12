@@ -11,6 +11,14 @@ An educational project to learn the fundamentals of **React** with **TypeScript*
   - State management and validation using React Hooks
 - **Routing**: Page navigation using React Router
 
+### Screenshots
+
+**Home Page:**
+<img src="docs/home-page.png" alt="Home Page with counter" width="600">
+
+**Form Page:**
+<img src="docs/form-page.png" alt="Form Page with registration" width="600">
+
 ## 🛠 Tech Stack
 
 - **React 19** - UI Library
